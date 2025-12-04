@@ -1,7 +1,7 @@
 <script>
   import * as Chord from '@tonaljs/chord';
-  import Keyboard from './Keyboard.svelte';
-  import AlignmentMatch from './AlignmentMatch.svelte';
+  import PianoKeyboard from './PianoKeyboard.svelte';
+  import HarmonicaMatch from './HarmonicaMatch.svelte';
   import { findChordInAlignment } from './utils.js';
   import chordData from './chord.json';
 
@@ -36,7 +36,7 @@
 
 <h1 class="text-2xl font-bold text-center">Chord Finder</h1>
 <div class="flex flex-col items-end">
-  <Keyboard {activeKeys} onToggle={toggleKey} />
+  <PianoKeyboard {activeKeys} onToggle={toggleKey} />
   
   {#if activeKeys.size > 0}
     <button 
@@ -65,7 +65,7 @@
   <div class="text-center">
     <div class="flex flex-col gap-3 items-center">
       {#each alignmentMatches as match}
-        <AlignmentMatch {activeKeys} {match} />
+        <HarmonicaMatch {activeKeys} {match} />
       {/each}
     </div>
   </div>

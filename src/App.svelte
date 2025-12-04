@@ -1,9 +1,9 @@
 <script>
-    import ChordFinder from './lib/ChordFinder.svelte';
+    import ChordAnalyzer from './lib/ChordAnalyzer.svelte';
 </script>
 
 <main class="flex flex-col items-center gap-y-4 min-h-screen bg-white py-4">
-  <ChordFinder />
+  <ChordAnalyzer />
 </main>
 
 <style>
