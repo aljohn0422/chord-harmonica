@@ -1,0 +1,77 @@
+{
+  "instrument": "Suzuki Chord Harmonica SCH-48",
+  "rows": [
+    {
+      "row_index": 0,
+      "category": "Major Chords (大三和弦)",
+      "chords": [
+        { "name": "Gb", "notes": ["Gb", "Bb", "Db", "Gb"]},
+        { "name": "Db", "notes": ["F", "Ab", "Db", "F"] },
+        { "name": "Ab", "notes": ["Eb", "Ab", "C", "Eb"] },
+        { "name": "Eb", "notes": ["G", "Bb", "Eb", "G"] },
+        { "name": "Bb", "notes": ["F", "Bb", "D", "F"] },
+        { "name": "F", "notes": ["F", "A", "C", "F"] },
+        { "name": "C", "notes": ["E", "G", "C", "E"] },
+        { "name": "G", "notes": ["G", "B", "D", "G"] },
+        { "name": "D", "notes": ["F#", "A", "D", "F#"] },
+        { "name": "A", "notes": ["E", "A", "C#", "E"] },
+        { "name": "E", "notes": ["E", "G#", "B", "E"] },
+        { "name": "B", "notes": ["F#", "B", "D#", "F#"] }
+      ]
+    },
+    {
+      "row_index": 1,
+      "category": "Dominant 7th Chords (屬七和弦)",
+      "chords": [
+        { "name": "Db7", "notes": ["F", "Ab", "B", "Db"] },
+        { "name": "Ab7", "notes": ["Gb", "Ab", "C", "Eb"] },
+        { "name": "Eb7", "notes": ["G", "Bb", "Db", "Eb"] },
+        { "name": "Bb7", "notes": ["Ab", "Bb", "D", "F"] },
+        { "name": "F7", "notes": ["F", "A", "C", "Eb"] },
+        { "name": "C7", "notes": ["E", "G", "Bb", "C"] },
+        { "name": "G7", "notes": ["G", "B", "D", "F"] },
+        { "name": "D7", "notes": ["F#", "A", "C", "D"] },
+        { "name": "A7", "notes": ["G", "A", "C#", "E"] },
+        { "name": "E7", "notes": ["E", "G#", "B", "D"] },
+        { "name": "B7", "notes": ["A", "B", "D#", "F#"] },
+        { "name": "F#7", "notes": ["F#", "A#", "C#", "E"] }
+      ]
+    },
+    {
+      "row_index": 2,
+      "category": "Minor Chords (小三和弦)",
+      "chords": [
+        { "name": "Gbm", "notes": ["Gb", "A", "Db", "Gb"] },
+        { "name": "Dbm", "notes": ["E", "Ab", "Db", "E"] },
+        { "name": "Abm", "notes": ["Eb", "Ab", "B", "Eb"] },
+        { "name": "Ebm", "notes": ["Eb", "Gb", "Bb", "Eb"] },
+        { "name": "Bbm", "notes": ["F", "Bb", "Db", "F"] },
+        { "name": "Fm", "notes": ["F", "Ab", "C", "F"] },
+        { "name": "Cm", "notes": ["Eb", "G", "C", "Eb"] },
+        { "name": "Gm", "notes": ["G", "Bb", "D", "G"] },
+        { "name": "Dm", "notes": ["F", "A", "D", "F"] },
+        { "name": "Am", "notes": ["E", "A", "C", "E"] },
+        { "name": "Em", "notes": ["E", "G", "B", "E"] },
+        { "name": "Bm", "notes": ["F#", "B", "D", "F#"] }
+      ]
+    },
+    {
+      "row_index": 3,
+      "category": "Augmented & Diminished 7th Chords (增和弦與減七和弦)",
+      "chords": [
+        { "name": "Dbaug", "notes": ["F", "A", "Db", "F"] },
+        { "name": "Abdim7", "notes": ["F", "Ab", "B", "D"] },
+        { "name": "Ebaug", "notes": ["G", "B", "Eb", "G"] },
+        { "name": "Bbdim7", "notes": ["G", "Bb", "Db", "E"] },
+        { "name": "F#aug", "notes": ["F#", "A#", "D", "F#"] },
+        { "name": "Cdim7", "notes": ["Eb", "Gb", "A", "C"] },
+        { "name": "Gaug", "notes": ["G", "B", "D#", "G"] },
+        { "name": "Ddim7", "notes": ["F", "Ab", "B", "D"] },
+        { "name": "Aaug", "notes": ["A", "C#", "F", "A"] },
+        { "name": "Edim7", "notes": ["E", "G", "Bb", "Db"] },
+        { "name": "Eaug", "notes": ["E", "G#", "C", "E"] },
+        { "name": "F#dim7", "notes": ["F#", "A", "C", "D#"] }
+      ]
+    }
+  ]
+}
